@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>MyLibrary</PackageId>
+    <Description>A very cool C# library that does something great.</Description>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+<Project>
+
+  <Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />
+
+  <!-- Every project in 'src' is published as a separate NuGet package. -->
+  <PropertyGroup Label="Package">
+    <IsPackable>true</IsPackable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageTags>example;template</PackageTags>
+    <PackageProjectUrl>https://alecdorrington.com/cs-library-template/</PackageProjectUrl>
+  </PropertyGroup>
+
+</Project>
