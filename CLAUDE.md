@@ -37,6 +37,8 @@ or else propose the change upstream.
 - Repeatedly retry upon failure until the build succeeds. If you are unsure how to fix an issue, ask for help or refer to existing code for examples.
 - Before trying to fix an error, make sure you first understand it fully.
 - You should never report that a feature is complete without testing it first.
+- Don't call anything that may skip a test (such as `Assert.Skip`) inside `Assert.All`: a skip is an exception, and `Assert.All` reports it as a failure.
+  A test that skips only in CI (say, for want of a licence) then fails only there.
 
 ### Code Style
 
