@@ -148,7 +148,7 @@ The most important thing to know is that many of the configuration files are aut
   <!-- Update the following URLs to show live build status in your README. -->
   <span>
     <a href="https://github.com/SgtSwagrid/cs-library-template/actions/workflows/build-integrity.yml"><img src="https://github.com/SgtSwagrid/cs-library-template/actions/workflows/build-integrity.yml/badge.svg" alt="Build status" /></a>
-    <a href="https://www.nuget.org/packages/MyLibrary"><img src="https://img.shields.io/nuget/v/MyLibrary.svg" alt="NuGet" /></a>
+    <a href="https://www.nuget.org/packages/MyLibrary"><img src="https://img.shields.io/nuget/vpre/MyLibrary.svg" alt="NuGet" /></a>
     <a href="https://alecdorrington.com/cs-library-template"><img src="https://img.shields.io/badge/docs-latest-blue.svg" alt="Documentation" /></a>
   </span>
 
